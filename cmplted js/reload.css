@@ -1,0 +1,10 @@
+.hide {
+	display: none;
+}
+.show{
+	display: block;
+}
+.errorMsg{
+	color: red; 
+	padding-left: 110px;
+}
