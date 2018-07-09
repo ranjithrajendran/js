@@ -36,16 +36,16 @@ function validatelogin(){
             }
         }
 
-        if(valid==1)
+        if(valid==0)
         {
-          document.getElementById("err").innerHTML="";
-          document.getElementById("err1").innerHTML="";
-          document.getElementById("res").innerHTML="LOGIN SUCCESSFULL";
-          window.open("https://www.qburst.com/");
+           document.getElementById("res").innerHTML="INCORRECT CREDENTIALS";
         }    
         else
         {
-          document.getElementById("res").innerHTML="INCORRECT CREDENTIALS";
+	  document.getElementById("err").innerHTML="";
+          document.getElementById("err1").innerHTML="";
+          document.getElementById("res").innerHTML="LOGIN SUCCESSFULL";
+          window.open("https://www.qburst.com/")
         }
     }
 }
